@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+gradio
+requests
+pydantic
+pydantic-settings
+torch
+pandas
+numpy
+qdrant-client
+sentence-transformers
+httpx
+google-generativeai
+scikit-learn
+pytorch-lightning
