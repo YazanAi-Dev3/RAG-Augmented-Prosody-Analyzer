@@ -38,16 +38,6 @@ Beyond the model, this repository showcases a complete operationalization strate
 - PyTorch & Transformers
 - FastAPI & Uvicorn
 
-### ⚠️ Acquiring Weights & Data (Smart Artifact Handling)
-To keep this repository lightweight and adhere to Git best practices, **heavy model weights and datasets are NOT included in this repository**. You must manually acquire them before running the inference pipelines:
-
-1. **ArabPoet SOTA Weights:**
-   - Download `hybrid_mtl_best_sota.pt` [from the release page/Kaggle]
-   - Place the file exactly at: `/arab_poet_microservice/weights/hybrid_mtl_best_sota.pt`
-
-2. **BGE-M3 Embedding Models:**
-   - Download the BGE-M3 model files (ONNX/BIN weights)
-   - Place them inside the `/arab_poet_microservice/models/bge-m3/` directory.
 
 ### Initialization
 Once you have acquired the necessary weights:
